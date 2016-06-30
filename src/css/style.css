@@ -69,6 +69,15 @@ q, quote {
     display: block;
     padding: 1em;
     quotes: none;
+    background: #f4f7f8;
+    font-weight: bold;
+}
+q:before, quote:before,
+q:after, quote:after{
+    content: '"';
+    font-size: 1.5em;
+    margin: 0.25em;
+    line-height: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
