@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+html {
+    overflow: auto;
+    height: 100%;
+}
+body {
+    width: auto;
+    height: auto;
+    cursor: default;
+    padding: 50px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #222;
+}
+
+header, nav, section, menu, article, main, figure, aside, footer, details, figcaption, hgroup, summary, code {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    border-collapse: separate;
+    -ms-interpolation-mode: bicubic;
+    max-width: 100%;
+}
+img[align="right"] {
+    float: right;
+}
+img[align="left"] {
+    float: left;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+}
+table td,
+table th {
+    padding: 10px;
+    border: 1px solid #888;
+    text-align: left;
+    vertical-align: top;
+    background: #dde4e9;
+}
+table th {
+    font-weight: bold;
+}
+
+sub, sup {
+    line-height: 0;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b, strong {
+    font-weight: bold;
+}
+em, i {
+    font-style: italic;
+}
+q, quote {
+    display: block;
+    padding: 1em;
+    quotes: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0 ;
+    padding: 0;
+    font-weight: bold;
+}
+
+
+form, fieldset, p, table, img, code, ul, ol {
+    display: block;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+code {
+    border-left: 5px solid #558abb;
+    padding: 1em;
+    background: #efefef;
+}
+
+ul, ol {
+    padding: 0 0 0 2em;
+}
+ul li, 
+ol li{
+    margin: 0 0 1em;
+}
+li ul,
+li ol {
+    margin-top: 1em;
+}
+
+dt {
+    font-weight: bold;
+    margin: 0 0 0.1em;
+}
+dd {
+    margin: 0 0 1em 2.5em;
+}
+
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    outline: transparent;
+}
+a:focus {
+    outline: thin dotted;
+}
