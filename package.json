@@ -2,13 +2,17 @@
 	"name": "frontend-html-semantic",
 	"description": "Create a document using only HTML",
 	"author": "Constantine Genchevsky",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"dependencies": {
 
 	},
 	"devDependencies": {
-		"grunt": "latest",
-		"grunt-htmlhint":  "latest",
-        "grunt-w3c-html-validation": "latest"
+		"grunt": "1.0.1",
+		"grunt-htmlhint":  "0.9.13",
+        "grunt-w3c-html-validation": "0.1.8"
+	},
+	"scripts": {
+		"test": "grunt test",
+		"live": "grunt live"
 	}
 }
