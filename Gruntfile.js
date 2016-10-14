@@ -1,5 +1,7 @@
+'use strict'
+
 module.exports = function (grunt) {
-	var SRC_DIR = 'src';
+	var SRC_DIR = 'src'
 
 	grunt.initConfig({
 		htmlhint: {
@@ -10,7 +12,7 @@ module.exports = function (grunt) {
 				src: [SRC_DIR + '/**/*.html']
 			},
 		},
-        'validation': {
+		'validation': {
 			options: {
 				reset: grunt.option('reset') || false,
 				stoponerror: false,
@@ -28,12 +30,12 @@ module.exports = function (grunt) {
 		}
 	});
 
-	grunt.loadNpmTasks('grunt-htmlhint');
-	grunt.loadNpmTasks('grunt-w3c-html-validation');
+	grunt.loadNpmTasks('grunt-htmlhint')
+	grunt.loadNpmTasks('grunt-w3c-html-validation')
 
-	grunt.registerTask('htmlcode', ['htmlhint:main']);
-	grunt.registerTask("htmlvalidate", ["validation"]);
-	
+	grunt.registerTask('htmlcode', ['htmlhint:main'])
+	grunt.registerTask("htmlvalidate", ["validation"])
+
 	//BAT files mirrors
-	grunt.registerTask('analize', ['htmlcode', 'htmlvalidate']);
+	grunt.registerTask('analize', ['htmlcode', 'htmlvalidate'])
 };
