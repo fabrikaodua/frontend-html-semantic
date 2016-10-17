@@ -20,4 +20,4 @@
 [Основы HTML](https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/HTML_basics)
 [Элемент <html>](https://developer.mozilla.org/ru/docs/Web/HTML/Element/htm)
 
-В проект включена автоматизированная проверка на валидность по W3C и статический анализ кода. Подробности настройки окружения можно почитать в [HELP.md](./HELP.md). Но задание можно выполнить и без этого, имея только браузер и редактор кода.
+В проект включена автоматизированная проверка на валидность по W3C и статический анализ кода. Подробности настройки окружения можно почитать в [HELP.md](https://github.com/fabrikaodua/frontend-html-semantic/blob/master/HELP.md). Но задание можно выполнить и без этого, имея только браузер и редактор кода.
