@@ -17,12 +17,17 @@
 3. Ссылки-якоря
 3. Теги: `p, meta, link, h1, h2, h3, ul, ol, li, a, article, code, img, em, strong, table, tr, td, th, dt, dd`
 
-Превью выполненного задание можно посмотреть на скриншоте [src/preview.png](./src/preview.png). Допускается, что получившийся результат может не на 100% соответствовать скриншоту.
-
 Две последние ссылки в документе нужно сделать открывающимися в новой вкладке
 
 [Основы HTML](https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/HTML_basics)
 
 [Элемент <html>](https://developer.mozilla.org/ru/docs/Web/HTML/Element/htm)
+
+Превью выполненного задание можно посмотреть на скриншоте [src/preview.png](./src/preview.png). Допускается, что получившийся результат может не на 100% соответствовать скриншоту.
+
+![src/preview.png](./src/preview.png)
+
+
+## Настройка окружения
 
 В проект включена автоматизированная проверка на валидность по W3C и статический анализ кода. Подробности настройки окружения можно почитать в [HELP.md](https://github.com/fabrikaodua/frontend-html-semantic/blob/master/HELP.md). Но задание можно выполнить и без этого, имея только браузер и редактор кода.
