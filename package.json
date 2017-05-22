@@ -10,7 +10,8 @@
 		"grunt-w3c-html-validation": "0.1.8"
 	},
 	"scripts": {
-		"test": "grunt test",
-		"live": "grunt live"
+		"test": "echo 'Without tests'",
+		"lint": "grunt htmlcode & grunt htmlvalidate",
+		"start": "grunt live"
 	}
 }

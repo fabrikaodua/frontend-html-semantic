@@ -6,7 +6,7 @@ module.exports = function (grunt) {
 	grunt.initConfig({
 		htmlhint: {
 			options: {
-				htmlhintrc: 'tasks/.htmlhintrc'
+				htmlhintrc: '.htmlhintrc'
 			},
 			main: {
 				src: [SRC_DIR + '/**/*.html']
@@ -35,7 +35,4 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('htmlcode', ['htmlhint:main'])
 	grunt.registerTask("htmlvalidate", ["validation"])
-
-	//BAT files mirrors
-	grunt.registerTask('analize', ['htmlcode', 'htmlvalidate'])
 };
